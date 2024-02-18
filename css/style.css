@@ -5,14 +5,27 @@
   max-width: 1320px;
   margin: 0 auto;
 }
+.btn-primary {
+  padding: 12px 20px;
+  background-color: orange;
+  border: 0;
+  border-radius: 10px;
+  color: ;
+}
 
+/* sheared styles */
 .banner {
-  height: 700px;
+  height: 600px;
   color: azure;
 }
 
 .header {
-  background-image: url("../images/Banner\ Image.png");
+  background-image: linear-gradient(
+      to left,
+      rgba(96, 97, 105, 0.52),
+      rgba(65, 59, 63, 0.73)
+    ),
+    url("../images/Banner\ Image.png");
   background-repeat: no-repeat;
 }
 .banner-title {
@@ -44,4 +57,37 @@
 .get-off-img {
   display: flex;
   align-items: center;
+}
+/* mid night party section */
+.second-banner {
+  background-image: linear-gradient(
+      to left,
+      rgba(96, 97, 105, 0.52),
+      rgba(65, 59, 63, 0.73)
+    ),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 50px;
+  width: full;
+  margin-bottom: 200px;
+}
+.mid-night-party {
+  color: white;
+}
+.mid-night-party h2 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  padding-top: 100px;
+}
+.mid-night-party p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mid-night-party {
+  width: 80%;
+}
+
+.btn-primary:hover {
+  background-color: aquamarine;
 }
