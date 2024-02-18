@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 800px;
+  color: azure;
+}
+
+.header {
+  background-image: url("../images/Banner\ Image.png");
+  background-repeat: no-repeat;
+}
+.banner-title {
+  display: flex;
+  justify-content: center;
+}
