@@ -7,7 +7,7 @@
 }
 
 .banner {
-  height: 800px;
+  height: 700px;
   color: azure;
 }
 
@@ -18,4 +18,30 @@
 .banner-title {
   display: flex;
   justify-content: center;
+}
+
+/* gets off section */
+.get-off {
+  text-align: center;
+}
+.get-off h2 {
+  color: rgb(240, 16, 16);
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+.get-off p {
+  color: red;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.get-off h4 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.get-off-img {
+  display: flex;
+  align-items: center;
 }
