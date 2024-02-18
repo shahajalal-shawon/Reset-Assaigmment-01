@@ -10,7 +10,7 @@
   background-color: orange;
   border: 0;
   border-radius: 10px;
-  color: ;
+  transition: .5s;
 }
 
 /* sheared styles */
@@ -70,7 +70,7 @@
   height: 600px;
   margin-top: 50px;
   width: full;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 .mid-night-party {
   color: white;
