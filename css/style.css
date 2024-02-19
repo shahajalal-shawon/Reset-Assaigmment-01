@@ -91,8 +91,21 @@
 .btn-primary:hover {
   background-color: aquamarine;
 }
-
-/* awsome portfolio section */
+/* details section styles */
+.details-scetion {
+  color: red;
+  height: 300px;
+  border-radius: 20px;
+  line-height: -10px;
+  padding-top: 100px;
+  background-color: pink;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.details-scetion span {
+  color: black;
+}
+/* awsome portfolio section styles*/
 .awsome-portfolio .portfolio-heading {
   text-transform: uppercase;
   color: red;
@@ -105,6 +118,11 @@
 .portfolio-description {
   margin-bottom: 20px;
 }
-.portfolio-img {
-  gap: 20px;
+.portfolio-img img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.portfolio-img img:hover {
+  opacity: 0.5;
 }
