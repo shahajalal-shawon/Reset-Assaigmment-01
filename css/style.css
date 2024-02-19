@@ -4,6 +4,7 @@
   box-sizing: border-box;
   max-width: 1320px;
   margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
 .btn-primary {
   padding: 12px 20px;
@@ -17,8 +18,15 @@
 .banner {
   height: 600px;
   color: azure;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.banner h1 {
+  font-size: 50px;
+}
 .header {
   background-image: linear-gradient(
       to left,
@@ -27,10 +35,6 @@
     ),
     url("../images/Banner\ Image.png");
   background-repeat: no-repeat;
-}
-.banner-title {
-  display: flex;
-  justify-content: center;
 }
 
 /* gets off section */
@@ -92,6 +96,9 @@
   background-color: aquamarine;
 }
 /* details section styles */
+#details {
+  margin-bottom: 20px;
+}
 .details-scetion {
   color: red;
   height: 300px;
@@ -104,6 +111,23 @@
 }
 .details-scetion span {
   color: black;
+}
+/* best offer section */
+.best-offer {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+.best-offer h1,
+h3 {
+  text-transform: uppercase;
+}
+.heading {
+  color: red;
 }
 /* awsome portfolio section styles*/
 .awsome-portfolio .portfolio-heading {
