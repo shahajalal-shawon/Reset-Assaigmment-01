@@ -191,12 +191,41 @@ span {
 .portfolio-img img:hover {
   opacity: 0.5;
 }
+/* newslatter section styles */
+.newslatter_part {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  background-color: hotpink;
+  padding: 50px;
+}
+#input {
+  padding: 10px;
+  border-radius: 50px;
+  border: 0;
+  width: 200px;
+}
+button {
+  padding: 9px;
+  border-radius: 50px;
+  border: 0;
+  background-color: red;
+  color: white;
+}
 /* footer section styles */
 .footer {
-  background-color: gray;
+  width: 1200px;
+  height: 400px;
+  background-color: black;
 }
 .footer_left_part {
   display: flex;
   justify-content: space-evenly;
   margin-top: 100px;
+  color: white;
+  padding-top: 50px;
+  border-bottom: 10px solid red;
 }
