@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
   max-width: 1320px;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
@@ -61,6 +63,7 @@
 .get-off-img {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* mid night party section */
@@ -78,7 +81,6 @@
   margin-bottom: 100px;
 }
 .mid-night-party {
-  color: white;
 }
 .mid-night-party h2 {
   font-size: 50px;
@@ -91,6 +93,8 @@
 }
 .mid-night-party {
   width: 80%;
+  color: white;
+  margin: auto;
 }
 .btn-primary:hover {
   background-color: aquamarine;
@@ -201,6 +205,8 @@ span {
   margin-top: 100px;
   background-color: hotpink;
   padding: 50px;
+  border-radius: 20px;
+  margin-bottom: 100px;
 }
 #input {
   padding: 10px;
@@ -217,15 +223,37 @@ button {
 }
 /* footer section styles */
 .footer {
-  width: 1200px;
+  width: 100%;
   height: 400px;
   background-color: black;
 }
 .footer_left_part {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 100px;
   color: white;
   padding-top: 50px;
-  border-bottom: 10px solid red;
+  width: 80%;
+  margin: 0 auto;
+}
+.footer_middel_part {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 1px solid gray;
+  padding-top: 40px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.footer_last_part {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
